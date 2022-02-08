@@ -3,9 +3,9 @@ pipeline{
 	
     stages{
         stage('Build'){
-		when{
+		/*when{
 			buildingTag()	
-		}
+		}*/
 		steps{
 			echo "Hello World"
 		}
